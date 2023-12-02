@@ -5,6 +5,7 @@ import string
 import nltk
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
 # Fungsi untuk melakukan tokenisasi kalimat, konversi ke huruf kecil, dan menghapus tanda baca dan angka
 def extract_and_preprocess_sentences(text):
