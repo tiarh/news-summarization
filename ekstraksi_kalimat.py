@@ -2,6 +2,9 @@ import pandas as pd
 from nltk.tokenize import sent_tokenize
 import re
 import string
+import nltk
+
+nltk.download('punkt')
 
 # Fungsi untuk melakukan tokenisasi kalimat, konversi ke huruf kecil, dan menghapus tanda baca dan angka
 def extract_and_preprocess_sentences(text):
